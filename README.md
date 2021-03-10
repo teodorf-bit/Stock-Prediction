@@ -4,23 +4,27 @@ The purpose of this project is to help investors invest in the financial market.
 
 The procedure tof how to predict and test trading strategies is the following.
 
-##.  Add a dataset(.csv file)containting the "open", "high", "low" and "close" price of any financial
+1.  Add a dataset(.csv file)containting the "open", "high", "low" and "close" price of any financial
     asset. 
 
-##  Using the open, high, low and close prices, we compute other indicator variables
+2.  Using the open, high, low and close prices, we compute other indicator variables
 
-## Initiate the machine learning step. We use 80% of the observations to train our model and we the
+3. Initiate the machine learning step. We use 80% of the observations to train our model and we the
 evaluate the trained model on the rest of the data. the ope, high, low prices, together with the
 indicator variables are used to predict the future closing prices. You can choose to use the
 following machine learning algorithms
 
-### Linear Regression
-### Support Vector Machine
-### Nearest Neighbor
-### Decision Tree
+a) Linear Regression
+b) Support Vector Machine
+c) Nearest Neighbor
+d) Decision Tree
 
 The performance of the algorithms are evaluated using the
 
-### Mean Average Procentage Error
-### Pearson correlation
-### Theil U
+1.) Mean Average Procentage Error
+2.) Pearson correlation
+3.) Theil 
+
+## Implement the following strategy!
+    if y(t+1) > y(t): Buy
+    if y/t+1) < y(t): Sell

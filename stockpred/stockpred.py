@@ -82,7 +82,7 @@ def regression(dataset, model):
     else:
          print("Error! No algorithm was choosen")
 
-    # Predict and evaluate
+    # Train and predict 
     reg.fit(X_train,y_train)
     y_pred = reg.predict(X_test)
     y = y_test
@@ -106,7 +106,7 @@ def invest(y_pred, y):
         else:
             I = 0
             P = P+y[i]
-    print('We just made', P)
+    print('We just made', P, 'USD')
     return P
 
 
