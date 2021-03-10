@@ -25,6 +25,6 @@ The performance of the algorithms are evaluated using the
 2.) Pearson correlation
 3.) Theil 
 
-## Implement the following strategy!
+4. Implement the following strategy!
     if y(t+1) > y(t): Buy
     if y/t+1) < y(t): Sell
